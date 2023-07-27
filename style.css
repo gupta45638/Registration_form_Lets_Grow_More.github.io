@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#2699e0, #f1a2f1, #ffc0cb); /* Gradient background */
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  background-color: #f9f9f9; /* Updated form background color */
+  animation: fadeIn 0.5s ease;
+}
+
+.form {
+  flex: 1;
+  padding: 20px;
+  color: #2e4466; /* Updated font color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.submitted-data {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitted-data h2 {
+  color: #2e4466;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.submitted-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.submitted-image {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.submitted-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.submitted-text {
+  margin-left: 20px;
+}
+
+/* Add some spacing between form elements */
+.form div {
+  margin-bottom: 20px;
+}
